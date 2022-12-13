@@ -1,2 +1,58 @@
 @import './common';
 @import './example';
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    background-color: #00498b;
+    padding: 10px;
+    height: 50px;
+}
+
+.is-hidden {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.load-more {
+    background-color: #00498b;
+    border-radius: 4px;
+    border: none;
+    color: aliceblue;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.gallery {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.photo-card {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 0 0 20px 20px;
+    border: grey;
+    box-shadow: 10px 5px 5px grey;
+    width: 45%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
